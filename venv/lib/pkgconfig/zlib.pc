@@ -1,0 +1,13 @@
+prefix=/Users/Siddhu/Documents/gen-ai/aws-gen-ai/venv
+exec_prefix=/Users/Siddhu/Documents/gen-ai/aws-gen-ai/venv
+libdir=/Users/Siddhu/Documents/gen-ai/aws-gen-ai/venv/lib
+sharedlibdir=/Users/Siddhu/Documents/gen-ai/aws-gen-ai/venv/lib
+includedir=/Users/Siddhu/Documents/gen-ai/aws-gen-ai/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
